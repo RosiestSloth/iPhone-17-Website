@@ -163,9 +163,6 @@ npm run preview
 - As imagens ficam em `public/img`.
 - Todo o conteúdo é fictício e usado apenas para estudos.
 
-## 📜 Licença
-
-Nenhuma licença definida até o momento.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
