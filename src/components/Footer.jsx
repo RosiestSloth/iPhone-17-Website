@@ -41,13 +41,13 @@ function Footer() {
                 <div className="border-t border-gray-800 pt-6">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <p className="text-sm text-gray-400">Copyright © 2025 Apple Inc. Todos os direitos reservados.</p>
-                    <div className="flex gap-6 text-sm text-gray-400">
+                    <div className="flex gap-6 text-sm text-gray-400 mt-4">
                         {buttomLinks.map((link, index) => (
                             <a className="hover:text-white" key={index} href="#">{link}</a>
                         ))}
                     </div>
                 </div>
-                <p className="text-xs text-gray-500 mt-6">Site criado para fins educacionais - Aula no YouTube</p>
+                <p className="text-xs text-gray-500 mt-6 text-center md:text-left">Site criado para fins educacionais - Aula no YouTube</p>
             </div>
             </div>
         </footer>

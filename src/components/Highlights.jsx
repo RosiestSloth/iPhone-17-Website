@@ -15,7 +15,7 @@ function Highlights() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 mb-16 gap-4">
+            <div className="grid md:grid-cols-2 mb-16 gap-4">
                 <div className="bg-gray-900 rounded-3xl p-8">
                     <img className="w-full rounded-2xl mb-4" src="img/titanium-design.jpg" alt="Design em titânio" />
                     <h3 className="font-bold mb-2 text-3xl">Titânio Premium</h3>

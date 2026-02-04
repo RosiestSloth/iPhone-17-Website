@@ -53,11 +53,11 @@ function Colors() {
                 ))}
             </div>
 
-            <div className='grid gap-8 mt-20 grid-cols-2'>
+            <div className='grid gap-8 mt-20 md:grid-cols-2'>
                 {models.map((models, index) => (
                     <div key={index} className='bg-linear-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray-800'>
                         <p className='text-4xl mb-4'>📱</p>
-                        <h3 className='text-2x font-bold mb-3'>{models.name}</h3>
+                        <h3 className='text-2xl font-bold mb-3'>{models.name}</h3>
                         <p className='text-gray-400 mb-4'>{models.screen}</p>
                         <ul className='space-y-2 text-gray-300'>
                             <li>{models.storage}</li>
